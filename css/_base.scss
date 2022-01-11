@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+ /* Colors */
+
+    /* Primary */
+    
+    $lightRed: hsl(356, 100%, 66%);
+    $veryLightRed: hsl(355, 100%, 74%);
+    $veryDarkBlue: hsl(208, 49%, 24%);
+    
+    /* Neutral */
+    
+    $white: hsl(0, 0%, 100%);
+    $grayishBlue: hsl(240, 2%, 79%);
+    $veryDarkGrayishGlue: hsl(207, 13%, 34%);
+    $veryDarkBlackBlue: hsl(240, 10%, 16%);
+    
+    /* G0radient */
+    
+    /* Background gradient - Intro/CTA mobile nav: */
+    
+    $veryLightRedBg: hsl(13, 100%, 72%);
+    $lightRed: hsl(353, 100%, 62%);
+    
+    /* Background gradient - body: */
+    
+    $veryDarkGrayBlue: hsl(237, 17%, 21%);
+    $veryDarkDesaturatedBlue: hsl(237, 23%, 32%);
+
+    $bg-submenu: rgb(239,239,241);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html{
+  font-size: 62.5%;
+}
+body{
+    //font-family: 'Overpass', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
